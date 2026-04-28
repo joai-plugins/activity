@@ -1,0 +1,38 @@
+{
+  "name": "joai-activity",
+  "version": "0.3.0",
+  "description": "Connect Activity to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/activity",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "activity"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Activity by JoAi",
+    "shortDescription": "Connect Activity to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Personal activity coaching. Set goals, track progress, and get coached — one session at a time.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/activity",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Activity tools available in this app.",
+      "Explain what setup or authentication Activity needs before I run an action.",
+      "Use Activity to help me with the task I describe next."
+    ]
+  }
+}

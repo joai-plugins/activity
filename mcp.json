@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "joai-activity": {
+      "url": "https://cortex.joai.ai/mcp/apps/activity"
+    }
+  }
+}
